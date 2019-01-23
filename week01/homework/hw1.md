@@ -3,7 +3,7 @@ uniqname:  bgribov
 
 ## Question 1
 ``` 1
-{{ answer to Q1 here }}
+The guest additions are drivers and softwares that make connection and communication between the computer and VirtualBox easier. After installing it I could copy and paste messages from one to another and there was clearly easier communication between my computer and the VM. It is different than a CAEN environment, because it can use sudo apt which gives it higher privalages that CAEN computers do not have. 
 ```
 
 ## Question 2
