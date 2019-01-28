@@ -483,32 +483,45 @@ git diff
 
 ## Question 3
 ``` 3
-commit 77faf1f782ae6ede89e36ba715686f03e6baa2c7
+commit d1bee32e98c0cc6800da9b5354242ef604147adb
 Author: Bella Gribov <bellagribov@0587358304.wireless.umich.net>
-Date:   Sun Jan 27 18:09:20 2019 -0500
+Date:   Mon Jan 28 15:40:06 2019 -0500
 
-gitignore file
+just p2
 
-diff --git a/.gitignore b/.gitignore
-index 8b13789..72e8ffc 100644
---- a/.gitignore
-+++ b/.gitignore
-@@ -1 +1 @@
--
-+*
-
-commit 276c6e57883e1121663bfe6368c59a9f67b31064
-Author: Bella Gribov <bellagribov@0587358304.wireless.umich.net>
-Date:   Sun Jan 27 18:08:58 2019 -0500
-
-gitignore file
-
-diff --git a/.gitignore b/.gitignore
-new file mode 100644
-index 0000000..8b13789
---- /dev/null
-+++ b/.gitignore
-@@ -0,0 +1 @@
+diff --git a/p2.cpp b/p2.cpp
+index e69de29..ae360cd 100644
+--- a/p2.cpp
++++ b/p2.cpp
+@@ -0,0 +1,69 @@
++#include <cassert>
++#include "p2.h"
++
++int sum(list_t list) {
++    assert(false);
++}
++int product(list_t list) {
++    assert(false);
++}
++int accumulate(list_t list, int (*fn)(int, int), int identity){
++    assert(false);
++}
++
++list_t reverse(list_t list){
++     assert(false);
++}
++
++list_t append(list_t first, list_t second){
++     assert(false);
++}
++
++list_t filter_odd(list_t list){
++     assert(false);
++}
++
++list_t filter_even(list_t list){
++     assert(false);
++}
 +
 ```
 
@@ -524,7 +537,7 @@ Git now opened emacs
 
 ## Question 6
 ``` 6
--nw standards for no window
+-nw standards for no window. It means that you won't be able to communicate iwth the widnow system, using the terminal for its displays and inputs. 
 ```
 
 ## Question 7
