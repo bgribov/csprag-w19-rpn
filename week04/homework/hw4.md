@@ -1,5 +1,5 @@
 # EECS 201 HW 4
-uniqname:  your_uniqname_here
+uniqname:  bgribov
 
 ## Question 1a
 ``` 1a
